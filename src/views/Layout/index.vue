@@ -2,12 +2,14 @@
 
 import LayoutHeader from "@/views/Layout/components/LayoutHeader.vue";
 import LayoutFooter from "@/views/Layout/components/LayoutFooter.vue";
+import MainNav from "./components/MainNav.vue";
 
-import LayoutNav from "./components/LayoutNav.vue";
+
+
 </script>
 
 <template>
-  <LayoutNav></LayoutNav>
+  <MainNav></MainNav>
   <LayoutHeader></LayoutHeader>
   <RouterView/>
   <LayoutFooter></LayoutFooter>

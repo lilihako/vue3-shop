@@ -26,7 +26,7 @@ onMounted(()=>getList());
       </li>
 
     </ul>
-  </HomePanel>>
+  </HomePanel>
 </template>
 
 <style scoped lang='scss'>

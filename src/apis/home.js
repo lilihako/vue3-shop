@@ -2,8 +2,11 @@ import http from "@/utils/http.js";
 // 获取轮播图
 // @Param{*}
 // @return{*}
-export function getBannerAPI(){
-    return http.get("/home/banner");
+// export function getBannerAPI(){
+//     return http.get("/home/banner");
+// }
+export function getBannerAPI(distributionSite="1"){
+    return http.get("/home/banner",{params:{distributionSite}});
 }
 //获取新鲜推荐
 export  function getNewAPI(){

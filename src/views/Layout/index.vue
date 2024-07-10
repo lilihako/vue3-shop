@@ -14,6 +14,7 @@ import LayoutFixed from "./components/LayoutFixed.vue";
   <LayoutFixed></LayoutFixed> 
   <MainNav></MainNav>
   <LayoutHeader></LayoutHeader>
+<!--  <RouterView :key="$route.fullPath"/>//第一种方式，每次点击都会进行刷新-->
   <RouterView/>
   <LayoutFooter></LayoutFooter>
 </template>

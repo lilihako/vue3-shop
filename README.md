@@ -2,28 +2,10 @@
 
 一款基于vue3框架搭建的购物平台
 
-## Recommended IDE Setup
+##所用开发工具
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Vscode+WebStorm
+后面我是用ws写的，代码联想太贴心了好用
 
-## Customize configuration
+##界面展示
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```

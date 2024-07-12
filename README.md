@@ -1,9 +1,6 @@
 # vue3-wwsc
 
-
-tetestsg
-
-This template should help get you started developing with Vue 3 in Vite.
+一款基于vue3框架搭建的购物平台
 
 ## Recommended IDE Setup
 

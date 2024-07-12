@@ -7,13 +7,17 @@ import App from './App.vue'
 import router from './router'
 
 import {layzyPlugin} from "@/directives/index.js";
-import {useRoute} from "vue-router";
 import {componentPlugin} from "@/components/index.js";
+import piniaPluginPersistedstate from 'pinia-plugin-persistedstate'
 
 
 const app = createApp(App)
 
-app.use(createPinia())
+
+const pinia=createPinia()
+pinia.use(piniaPluginPersistedstate)
+app.use(pinia)
+
 app.use(router)
 //引用图片懒加载的指令：
 app.use(layzyPlugin)
